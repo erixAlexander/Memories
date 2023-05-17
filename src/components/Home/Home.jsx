@@ -20,7 +20,6 @@ const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log(currentPage);
     dispatch(getPosts(currentPage, filter));
   }, [dispatch, currentPage]);
 

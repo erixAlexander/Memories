@@ -40,7 +40,7 @@ const Form = ({ currentPage, filter, setIsFiltered }) => {
       });
     }
   };
-  console.log(postData);
+
   useEffect(() => {
     setPostData((prev) => {
       return { ...prev, tags: tagArray };
