@@ -1,0 +1,40 @@
+.input {
+  outline: none;
+}
+
+.ptag {
+  margin: 0 0 0 20px;
+  font-size: 12px;
+  color: red;
+  font-weight: bold;
+}
+
+.submit-filters,
+.clear-filters {
+  margin: 0 auto;
+  width: 85%;
+  padding: 14px 20px;
+  border-radius: 4px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  font-weight: 100;
+  font-size: 1rem;
+  transition: 0.4s;
+}
+
+.clear-filters {
+  background-color: #f50057;
+  font-size: 0.8rem;
+  padding: 9px 20px;
+}
+
+.submit-filters:hover {
+  background-color: #27399e;
+  cursor: pointer;
+}
+
+.clear-filters:hover {
+  background-color: #d21759;
+  cursor: pointer;
+}

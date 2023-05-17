@@ -1,0 +1,21 @@
+const CREATE = "CREATE";
+const UPDATE = "UPDATE";
+const DELETE = "DELETE";
+const FETCH_ALL = "FETCH_ALL";
+const LIKE = "LIKE";
+const AUTH = "AUTH";
+const LOGOUT = "LOGOUT";
+const FETCH_COUNT = "FETCH_COUNT";
+const FETCH_FILTER = "FETCH_FILTER";
+
+export {
+  CREATE,
+  UPDATE,
+  DELETE,
+  FETCH_ALL,
+  LIKE,
+  AUTH,
+  LOGOUT,
+  FETCH_COUNT,
+  FETCH_FILTER,
+};
