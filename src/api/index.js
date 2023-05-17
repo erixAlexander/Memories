@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const posts = "/posts";
-const API = axios.create({ baseURL: process.env.REACT_APP_URL });
+const API = axios.create({ baseURL: process.env.REACT_APP_BACKEND_URL });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
